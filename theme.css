@@ -80,11 +80,6 @@
   --even-row-color: #020202;
   --table-striped-bg--hover: var(--dark-theme-bg-dark-grey);
 
-	/* Overwrite source(code) table color on dark mode */
-	table.source {
-	  color: #333333;
-	}
-
   /* Pane widget */
   --pane-border-color: var(--dark-theme-bg-dark-grey);
   --pane-header-border-color: var(--dark-theme-bg-dark-grey);
@@ -218,5 +213,10 @@
    background-color: #494D4E !important;
    color: #9C9E9E !important;
  }
+ 
+/* Overwrite source(code) table color on dark mode */
+#jenkins table.source {
+  color: #333333;
+}
 
  /* End CodeMirror Darcula theme */
