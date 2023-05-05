@@ -7,6 +7,8 @@
   --dark-theme-bg-light-grey: #555;
   --dark-theme-bg-very-light-grey: #444;
   --background: hsl(240, 6%, 13%);
+  --breadcrumbs-bar-background: rgba(24,24,27,255);
+  --footer-background: rgba(24,24,27,255);
   --very-light-grey: var(--dark-theme-bg-very-light-grey);
   --light-grey: var(--dark-theme-bg-medium);
   --medium-grey: var(--dark-theme-bg-medium-grey);
