@@ -63,6 +63,7 @@
   --breadcrumbs-text-color: var(--text-color);
   --breadcrumbs-item-bg-color--hover: var(--dark-theme-bg-dark);
   --breadcrumbs-border: var(--dark-theme-bg-dark-grey);
+  --jenkins-breadcrumbs: var(--breadcrumbs-bar-background);
 
   /* Links */
   --link-color: #53c1ff;
