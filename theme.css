@@ -223,3 +223,21 @@
 }
 
  /* End CodeMirror Darcula theme */
+
+/* Main header background */
+#page-header,
+.page-header {
+    background-color: #1e1e1e !important; /* Change this to your preferred color */
+}
+
+/* You might also want to style the breadcrumb bar below the header */
+#breadcrumbBar,
+.jenkins-breadcrumbs {
+    background-color: #2a2a2a !important; /* Slightly different shade for contrast */
+}
+
+/* If you want to ensure all header elements inherit the new background */
+header#page-header {
+    background: #1e1e1e !important;
+    border-bottom: 1px solid #333 !important; /* Optional: add a border for definition */
+}
